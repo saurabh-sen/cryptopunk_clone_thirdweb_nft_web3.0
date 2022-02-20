@@ -1,3 +1,5 @@
+![coinbase-clone](https://user-images.githubusercontent.com/68960038/154832352-995c0efa-d58f-4682-8534-27f3f28ccbc7.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

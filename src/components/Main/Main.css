@@ -1,0 +1,107 @@
+/* .main {
+    max-height: 50vh;
+} */
+
+.mainContent {
+    display: flex;
+    padding-bottom: 40px;
+    border-bottom: 1px solid white;
+}
+
+.punkHighlight {
+    flex: 0.25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.punkContainer {
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    margin-right: 20px;
+}
+
+.selectedPunk {
+    object-fit: contain;
+    height: 50vh;
+    width: 25vw;
+}
+
+.punkDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.title {
+    font-size: 8vw;
+    font-weight: 800;
+}
+
+.itemNumber {
+    color: #a1a5b0;
+    align-self: center;
+}
+
+.owner {
+    display: flex;
+    margin: 10px 0;
+    height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.owner > div {
+    margin: 0 5px;
+}
+
+.ownerImageContainer {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    overflow: hidden;
+    object-fit: contain;
+}
+.ownerImageContainer > img {
+    height: 100%;
+    width: 100%;
+}
+
+.ownerDetails {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.ownerNameAndHandle {
+    flex: 1;
+}
+
+.ownerHandle {
+    color: #00ebfe;
+}
+
+.ownerLink {
+    padding: 12px;
+    border-radius: 50px;
+    height: 4vh;
+    width: 4vh;
+    border: 1px solid white;
+    margin: 0 0 0 10px;
+}
+
+.ownerLink > img {
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 642px) {
+
+    .ownerNameAndHandle { 
+        font-size: 1.7vh; 
+    }
+ 
+ }
